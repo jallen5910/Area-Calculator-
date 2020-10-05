@@ -1,0 +1,20 @@
+def circle 
+ask for radius
+calculate pi * r^2
+
+def square 
+ask for length
+calculate l*l
+
+def rectangle
+ask for length and width
+calculate l*w
+
+def triangle
+ask for base
+ask for height
+calculate b*h /2
+
+def main menu
+input= ask for shape you want to calculate
+run the function
