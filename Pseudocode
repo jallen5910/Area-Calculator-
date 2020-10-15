@@ -1,19 +1,31 @@
-def circle 
-ask for radius
-calculate pi * r^2
+def circle ():
+radius= input ("what is the radius:")
+radius= int(radius)
+carea=3.14592*radius**2
+print("the area is",carea)
 
-def square 
-ask for length
-calculate l*l
+def square(): 
+slength=input("what are the side lengths?:")
+slength=int(slength)
+sarea=slength*slength
+print("the area is",sarea)
 
-def rectangle
-ask for length and width
-calculate l*w
+def rectangle():
+rlength=input("what is the length?:")
+rwidth=input("what is the width?:")
+rlength=int(rlength)
+rwidth=int(rwidth)
+rarea=rlength*rwidth
+print("the area is",rarea)
 
-def triangle
-ask for base
-ask for height
-calculate b*h /2
+def triangle():
+base=imput("what is the base?:")
+height=imput("what is the height?:")
+base=int(base)
+height=int(height)
+tarea=(base*height)/2
+print("the area is",tarea)
+
 
 def main menu
 input= ask for shape you want to calculate
