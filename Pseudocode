@@ -1,28 +1,25 @@
+Shape = input("What shape are you calculating?")
+#square,triangle,rectangle,circle
+
+#some code that asks new question based on answer using lots of if statements
+
 def circle ():
-radius= input ("what is the radius:")
-radius= int(radius)
+radius= int(input("what is the radius:"))
 carea=3.14592*radius**2
 print("the area is",carea)
 
 def square(): 
-slength=input("what are the side lengths?:")
-slength=int(slength)
+slength=int(input("what are the side lengths?:"))
 sarea=slength*slength
 print("the area is",sarea)
 
 def rectangle():
-rlength=input("what is the length?:")
-rwidth=input("what is the width?:")
-rlength=int(rlength)
-rwidth=int(rwidth)
+rlength, rwidth = int(input("what is the lenght and width:"))
 rarea=rlength*rwidth
 print("the area is",rarea)
 
 def triangle():
-base=imput("what is the base?:")
-height=imput("what is the height?:")
-base=int(base)
-height=int(height)
+base and heigh= int(imput("what is the base and height?:")
 tarea=(base*height)/2
 print("the area is",tarea)
 
@@ -30,3 +27,16 @@ print("the area is",tarea)
 def main menu
 input= ask for shape you want to calculate
 run the function
+
+def mainMenu():
+logo()
+userchoice = input ("Wouldyou like to calculate area for square (s), rectangle (r), cirlcle (c), or triangle (t)
+if userChoice == 's' :
+    square ()
+elif userChoice == 'r':
+    rectangle ()
+elif userChoice == 'c':
+    circle
+elif userChoice == 't':
+    triangle ()
+    
