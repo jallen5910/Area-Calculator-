@@ -1,0 +1,57 @@
+print  (":_______   _       ______                  _   _                  _____      _      ")
+print (":|__   __| (_)     |  ____|                | | (_)                / ____|    | |     ")
+print (":   | |_ __ _  __ _| |__   __ _ _   _  __ _| |_ _  ___  _ __  ___| |     __ _| | ___   ")
+print (":   | | '__| |/ _` |  __| / _` | | | |/ _` | __| |/ _ \| '_ \/ __| |    / _` | |/ __|  ")
+print (":   | | |  | | (_| | |___| (_| | |_| | (_| | |_| | (_) | | | \__ \ |___| (_| | | (__    ")
+print(":    |_|_|  |_|\__, |______\__, |\__,_|\__,_|\__|_|\___/|_| |_|___/\_____\__,_|_|\___|   ")
+print(":               __/ |         | |                                                        ")
+print(":              |___/          |_|                                                        ")
+print(":                        By Jennifer Allen ")
+
+print(": TrigCalc() to begin")
+
+Trigcalc_notes()
+return
+
+def Trigcalc_notes():
+    print(":                                                        ")
+    print(": use trignometric ratios of two side lengths in a right triangle")
+    print(": type TrigCalc to continue")
+    print(": continue?")
+    
+def SinA():
+    SinA value= int(input("enter value of opposite angle"))
+    SinA Value= int(input("enter value of hypotenuse angle"))
+    SinA value= opposite angle/hypotenuse angle or o/h
+    return value of SinA
+    
+def CosA():
+    CosA value= int(input("enter value of adjacent angle"))
+    CosA value= int(input("enter value of hypotenuse angle"))
+    CosA value= adjacent angle/hypotenuse angle or a/h
+    return value of CosA
+    
+def TanA():
+    TanA value= int(input("enter value of opposite angle"))
+    TanA value= int(input("enter value of adjacent angle"))
+    TanA value= opposite angle/adjacent angle or o/a
+    return value of TanA
+    
+def mainmenue():
+    logo()
+    userchoice= input(" would you like to calulate the value of Adjacent angle (Sin),Opposite angle (Cos), hypotenuse angle(Tan)?"
+    
+    if userchoice == 'Sin':
+        SinA()
+        
+    elif userchoice == 'Cos':
+        CosA()
+        
+    elif userchoice == 'Tan':
+        TanA()
+        
+    
+    
+        
+        
+    
